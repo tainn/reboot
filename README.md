@@ -1,7 +1,7 @@
-## reboot
+# reboot
 
-Mock reboot command proxy
+...
 
-```sh
+```console
 cargo run
 ```
