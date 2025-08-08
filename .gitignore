@@ -1,6 +1,7 @@
-# dev
+# ide
 .idea
 *.iml
 
-# compile
+# cargo
+Cargo.lock
 target

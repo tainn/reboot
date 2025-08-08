@@ -1,5 +1,3 @@
 # reboot
 
-```console
-cargo build --release
-```
+mock system reboot command proxy

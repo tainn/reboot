@@ -1,7 +1,7 @@
 use std::process::Command;
 
 fn main() {
-    Command::new("reboot")
-        .spawn()
+    let _ = Command::new("reboot")
+        .status()
         .expect("failed to execute a reboot");
 }
