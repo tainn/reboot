@@ -1,3 +1,3 @@
 # reboot
 
-mock system reboot command proxy
+Mock system `reboot` command proxy
