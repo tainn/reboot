@@ -9,9 +9,8 @@ default:
 upgrade:
     cargo upgrade --incompatible
 
-# cargo lint && fmt && check && sort
+# cargo sort && lint && fmt
 fix:
+    cargo sort
     cargo clippy --fix --allow-dirty --allow-staged
     cargo fmt
-    cargo check
-    cargo sort
